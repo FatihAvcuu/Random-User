@@ -1,0 +1,105 @@
+.nav{
+  width: 100%;
+  height: 60px;
+  background-color: #192a56;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  transition: 0.5s ease-in-out;
+  z-index: 1;
+}
+.nav h3{
+  color: white;
+}
+.nav-top{
+  display: flex;
+  height: 60px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.nav:hover{
+  height: 160px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.nav:hover .nav-content{
+  opacity: 1;
+  visibility: visible;
+}
+
+.nav-content{
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  position: absolute;
+  width: 100%;
+  margin-top: 70px;
+  transition: visibility 0s, opacity 0.8s ease-in-out;
+}
+.nav-content button{
+  border: 3px solid #e4e932;
+  background-color: transparent;
+  color: white;
+  font-size: 17px;
+  font-weight: 700;
+  text-align: center;
+  width: 190px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 7px;
+  outline: none;
+  transition: 0.1s;
+  -webkit-box-shadow: 0px 0px 68px -1px #e4e932;
+-moz-box-shadow: 0px 0px 68px -1px #e4e932;
+box-shadow: 0px 0px 68px -1px #e4e932;
+
+}
+.nav-content button:active{
+  opacity: 0.5;
+}
+
+
+.top-content{
+  background-color: rgb(233, 230, 230);
+  margin-top: 20vmin;
+  height: 120px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.top-content img{
+  margin-top: 20px;
+  height: 150px;
+  border-radius: 100px;
+  border: 3px solid white;
+}
+
+.bottom-content{
+  background-color: rgb(252, 252, 252);
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  color: #111d3b;
+}
+
+.navigate{
+  background-color: rgb(252, 252, 252);
+  height: 60px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top: 1px solid rgb(233, 230, 230);
+}
+.navigate .col{
+  margin-top: 13px;
+}
+.navigate .col i{
+  color:rgb(127, 124, 133);
+  transition: 0.2s;
+}
+.navigate .col i:hover{
+  color:rgb(108, 104, 117);
+  margin-top: 2px;
+}
